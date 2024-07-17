@@ -1,0 +1,89 @@
+.btn {
+    border-radius: 10px;
+    background-color: rgb(99, 182, 188);
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    outline: none;
+}
+
+.grid-container-left {
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    height: 400px;
+    width: 140px;
+}
+
+.images-container {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    right: 60px;
+    border-radius: 8px;
+}
+
+.image {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    width: 450px;
+    height: 450px;
+    border: solid rgb(236, 202, 202);
+    border-radius: 8px;
+    background-color: antiquewhite;
+
+}
+
+img {
+    left: -18px;
+    top: -18px;
+    position: relative;
+    width: 440px;
+    height: 440px;
+    border-radius: 8px;
+}
+
+.item-description {
+    position: relative;
+    left: 800px;
+    top: 40px;
+    width: 400px;
+    height: 400px;
+    /*padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(99, 129, 149);
+    border: solid beige;*/
+    color: azure;
+}
+
+.text {
+    position: absolute;
+    bottom: 60px;
+    left: 350px;
+    text-align: center;
+}
+.item-description select{
+    width: 130px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    border: solid rgb(236, 202, 202);
+}
+
+.item-description input{
+    width: 50px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    border: solid rgb(236, 202, 202);
+}

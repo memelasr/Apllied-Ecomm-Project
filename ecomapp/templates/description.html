@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+</head>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="new_customer.html">New_Customer</a></li>
+    <li style="float: right"><a class="active" href="login.html">Login</a></li>
+    <link rel="stylesheet" href="..\style.css" />
+    <link rel="stylesheet" href="..\products.css" />
+    <link rel="stylesheet" href="..\description.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</ul>
+
+<body>
+
+    <div class="images-container">
+        <div class="image">
+            <a href="laptops.html"><img src="..\images\laptops\th (1).jpg"></a>
+        </div>
+        <div class="text">
+            <h4>HP Laptop</h4>
+            <p>HP 15.6" Intel Core i7</p>
+        </div>
+    </div>
+
+    <div class="grid-container-left">
+
+        <button class="btn" onclick="location.href='products.html'">
+            Back
+        </button>
+
+        <div class="item-description">
+            <h3>HP Laptop</h3>
+            <br>
+            <p>
+            <h4></h4>HP 15.6" Intel Core i7 <br>32GB RAM 1TB SSD Win 11 </h4>
+            </p>
+
+            <br>
+            <p>NVIDIA Quadro M1200, 4GB Gpu laptop with 7th Gen CPU <br> 15.6' screen 32GB RAM + 1TB SSD</p>
+            <br><br><br>
+            <p>R 16,999.00</p>
+            <br><br><br>
+            <select class="my-3">
+                <option>Select Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Silver</option>
+            </select>
+            <br><br>
+            <input type="number" value="1">
+            <button class="btn" onclick="location.href='cart.html'">Add <i class="fa fa-shopping-cart"></i></button>
+
+        </div>
+
+        <script src="description.js"></script>
+
+
+        <footer>
+
+            <p>Copyright&copy;2023 EcomApp store designed by CyberGurus</p>
+
+        </footer>
+</body>
+
+</html>

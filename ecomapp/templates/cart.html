@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+</head>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li><a href="new_customer.html">New_Customer</a></li>
+  <li style="float:right"><a class="active" href="login.html">Login</a></li>
+  <link rel="stylesheet" href="..\style.css">
+</ul>
+
+<body>
+
+  <style>
+    .h1 {
+      position: relative;
+      width: 300px;
+      left: 600px;
+      color: #fff;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      /*border: solid black;*/
+    }
+
+    .item {
+      display: flex;
+      width: 400px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+
+    }
+
+    .qty {
+      display: flex;
+      width: 400px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+
+    .price {
+      display: flex;
+      width: 400px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+
+    .subtotal {
+      display: flex;
+      position: absolute;
+      right: 75px;
+      top: 180px;
+      width: 400px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+
+    .shop {
+      display: flex;
+      position: absolute;
+      left: 600px;
+      top: 230px;
+      width: 130px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+
+    .checkout {
+      display: flex;
+      position: absolute;
+      left: 800px;
+      top: 230px;
+      width: 130px;
+      border: solid black;
+      padding: 3px 2px;
+      box-shadow: 0.5px 1px rgba(0, 0, 0, 1);
+      border-radius: 8px;
+      background-color: rgb(99, 182, 188);
+    }
+  </style>
+  <div class="cart_items">
+    <h1 class="h1">Your Shopping Cart</h1>
+
+    <div class="items">
+      <div class="item">ITEM: </div>
+      <div class="qty">QTY: </div>
+      <div class="price">PRICE: </div>
+    </div>
+
+    <div class="subtotal">Subtotal:</div>
+    <div>
+      <button class="shop">Continue Shopping</button>
+      <button class="checkout">Checkout</button>
+    </div>
+  </div>
+
+  <footer>
+
+    <p>Copyright&copy;2023 EcomApp store designed by CyberGurus</p>
+
+  </footer>
+
+</body>
+
+</html>

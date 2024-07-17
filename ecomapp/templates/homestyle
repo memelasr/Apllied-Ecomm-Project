@@ -1,0 +1,496 @@
+
+.container{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.container span{
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-family: sans-serif;
+    background-origin: padding-box;
+    
+}
+
+.intro-title{
+    top:-130px;
+    right: -380px;
+    color: rgb(143, 128, 42);
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    position: absolute;
+    animation:text 3s 1;
+    animation-name: container;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;    
+}
+.intro-subtitle{
+    top: -40px;
+    right: -400px;
+    font-weight: 800;
+    color: rgb(141, 99, 20);
+    font-size: 30px;
+    position: absolute;
+}
+@keyframes container{
+    0%{
+        color: black;
+        margin-bottom: 40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: 40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: 40px;
+    }
+}
+.btn {
+    border-radius: 10px;
+    background-color: rgb(99, 182, 188);
+    padding: 10px 15px;
+    box-shadow: 1px 3px 1px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    outline: none;
+    width: 120px;
+}
+.btn:hover{
+    background-color: rgb(8, 46, 49);
+    transform: translateY(-1px);
+}
+.btn:active{
+    transform: translateY(1px);
+}
+.grid-container-left{
+    text-align:left;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 400px;
+    width:140px;
+    /*border: solid black;*/
+}
+.grid-container-right {
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    height: 400px;
+    /*border: solid black;*/
+    width:1000px;
+}
+img{
+    width: 200;
+    height: 200;
+    width: 500%;
+    max-height: 500%;
+    opacity: 0.5; 
+}
+.image,.image1,.image2,.image3,.image4,.image5{
+    position: absolute;
+    text-align: right;
+    top: 50px;
+    right: 10px;
+}
+.image-slider{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.image-slider-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.image-slider-2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+.image-slider-3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide3;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+.image-slider-4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide4;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+}
+.image-slider-5{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide5;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+.image{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.image1{
+    animation-name: slide1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.image2{
+    animation-name: slide2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.image3{
+    animation-name: slide3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.image4{
+    animation-name: slide4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.image5{
+    animation-name: slide5;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide1{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide2{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide3{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide4{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide5{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+.finance-it{
+    border: black;
+    position: relative;
+    padding: 1px;
+    top: 410px;
+    left: -340px;
+    display: flex;
+    width: 800px;
+    height: 340px;
+    background-color: bisque;
+}
+.online-deals{
+    background-color: rgb(175, 18, 125);
+    border: black;
+    top: 410px;
+    right:0px ;
+    display: flex;
+    width: 420px;
+    height: 340px;
+    position: absolute;
+    text-align: center;
+}
+
+
+/*....css for homestyle....*/
+
+
+.container{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.container span{
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-family: sans-serif;
+    background-origin: padding-box;
+    
+}
+
+.intro-title{
+    top:-130px;
+    right: -380px;
+    color: rgb(143, 128, 42);
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    position: absolute;
+    animation:text 3s 1;
+    animation-name: container;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;    
+}
+.intro-subtitle{
+    top: -40px;
+    right: -400px;
+    font-weight: 800;
+    color: rgb(141, 99, 20);
+    font-size: 30px;
+    position: absolute;
+}
+@keyframes container{
+    0%{
+        color: black;
+        margin-bottom: 40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: 40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: 40px;
+    }
+}
+.btn {
+    border-radius: 10px;
+    background-color: rgb(99, 182, 188);
+    padding: 10px 15px;
+    box-shadow: 1px 3px 1px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    outline: none;
+    width: 120px;
+}
+.btn:hover{
+    background-color: rgb(8, 46, 49);
+    transform: translateY(-1px);
+}
+.btn:active{
+    transform: translateY(1px);
+}
+.grid-container-left{
+    text-align:left;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 400px;
+    width:140px;
+    /*border: solid black;*/
+}
+.grid-container-right {
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    height: 400px;
+    /*border: solid black;*/
+    width:1000px;
+}
+img{
+    width: 200;
+    height: 200;
+    width: 500%;
+    max-height: 500%;
+    opacity: 0.5; 
+}
+.image,.image1,.image2,.image3,.image4,.image5{
+    position: absolute;
+    text-align: right;
+    top: 50px;
+    right: 10px;
+}
+.image-slider{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.image-slider-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.image-slider-2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+.image-slider-3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide3;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+.image-slider-4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide4;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+}
+.image-slider-5{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    animation-name: slide5;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+.image{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.image1{
+    animation-name: slide1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.image2{
+    animation-name: slide2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.image3{
+    animation-name: slide3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.image4{
+    animation-name: slide4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.image5{
+    animation-name: slide5;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide1{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide2{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide3{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide4{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+@keyframes slide5{
+    from{ transform:translate(0px)}
+    to{transform: translate(1000px);}
+}
+.finance-it{
+    border: black;
+    position: relative;
+    padding: 1px;
+    top: 410px;
+    left: -340px;
+    display: flex;
+    width: 800px;
+    height: 340px;
+    background-color: bisque;
+}
+.online-deals{
+    background-color: rgb(175, 18, 125);
+    border: black;
+    top: 410px;
+    right:0px ;
+    display: flex;
+    width: 420px;
+    height: 340px;
+    position: absolute;
+    text-align: center;
+}
